@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:12px; font-family:"微软雅黑";}
+input,a{outline:none;}
+
+#header-con,#nav-con,#main,#main1-con,#main2-con,#main3-con,#main4-con,#main5-con,#footer-con{width:960px;margin:0 auto;}
+
+
+#fix{position:fixed;left:0;top:80px;}
+
+
+#header-con{height:105px;}
+#header-con h1{padding:24px 0 0 9px;float:left;}
+#header-con .right{float:right;padding-top:37px;}
+
+
+#nav-con{height:37px;}
+#nav-con ul{float:left;padding-left:10px;}
+#nav-con ul li{float:left;}
+#nav-con ul li a{float:left;width:92px;text-align:center;font-size:16px;color:#000;}
+#nav-con ul .li1 a{width:88px}
+#nav-con ul li a:hover{color:#666;}
+
+#banner-con{background:url(../images/bj.jpg) no-repeat left top;width:960px;height:315px;margin:0 auto;}
+
+
+#main{min-height:400px;height:auto!important;height:400px;}
+#main:after{content:".";display:block;height:0;clear:both;overflow:hidden;visibility:hidden;}
+
+
+
+#main5-con{height:38px;background:url(../images/bj1.jpg) repeat-X left top;}
+#main5-con p{text-align:center;line-height:38px;}
+
+
+
+
+#footer-con{height:96px;}
+#footer-con .p1{text-align:center;line-height:25px;margin-top:3px;}
+#footer-con .p2{text-align:center;line-height:25px;}
+#footer-con .p3{text-align:center;line-height:25px;}
+#footer-con .p4{line-height:25px;padding-left:455px;width:505px;}
